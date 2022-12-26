@@ -1,0 +1,22 @@
+[
+  {
+    "operation": "shift",
+    "spec": {
+      "RecId": "id",
+      "*": "fields.&"
+    }
+  },
+  {
+    "operation": "modify-overwrite-beta",
+    "spec": {
+      "id": "=toString"
+    }
+  },
+  {
+    "operation": "shift",
+    "spec": {
+      "id": "&",
+      "fields": "&"
+    }
+  }
+ ]

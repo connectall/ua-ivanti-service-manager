@@ -1,0 +1,35 @@
+1) The API Request and Response Payloads are in JSON Format.
+-----> No Risk
+
+2) The Authentication Mode is API-Key based Authentication.
+-----> No Risk
+
+3) Metadata:
+	i) It does not have project scope.
+	ii) It has issue type scope like incident, service-request, problem, change, release.
+-----> No Risk
+
+4) Field Mapping:
+	i) Standard fields published in the documentation
+	ii) There is no custom fields mentioned in the documentation.
+-----> No Risk
+
+5) Date Format:
+	It has ISO8601 Dat Format
+-----> No Risk
+
+6) API Configuration:
+	i) Query Modified Records: /api/odata/businessobject/incidents?$filter=LastModDateTime gt 2022-12-23T05:00:41Z
+
+	ii) Get Record By ID: /api/odata/businessobject/incidents('1D5D87ED63564839B1D656AA5B0A7C4C')
+
+	iii) Create Record: /api/odata/businessobject/incidents
+
+	iv) Update Record: /api/odata/businessobject/incidents('1D5D87ED63564839B1D656AA5B0A7C4C')
+-----> No Risk
+
+
+Additional Observation
+-----------------------
+We cannot give values to priority field API as it changes according to values of Urgency and Impact.
+ 

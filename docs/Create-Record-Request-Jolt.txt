@@ -1,0 +1,14 @@
+[
+  {
+    "operation": "remove",
+    "spec": {
+      "business object": ""
+    }
+  },
+  {
+    "operation": "shift",
+    "spec": {
+      "fields": ""
+    }
+  }
+ ]
