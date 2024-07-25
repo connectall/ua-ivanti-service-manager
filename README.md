@@ -1,4 +1,4 @@
-# ivanti-service-manager_universal_adapter
+# ua-ivanti-service-manager
  Start off with an easy-to-use incident management system for dealing with inbound tickets and requests from any channel to make your IT help desk more efficient, and users happier and more productive.  Incident Management Problem Management Knowledge Management Self Service Mobile Service Request & Service Catalog Survey Dashboards & Reporting
 
 Working Condition:
